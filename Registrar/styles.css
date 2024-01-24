@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+#contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background: rgb(84, 129, 255);
+    border-radius: 10px;
+}
+
+h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div{
+    margin: 1vw;
+}
+
+
+.entrada{
+    border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(47, 103, 255);
+    color: white;
+}
